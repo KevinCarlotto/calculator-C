@@ -1,32 +1,33 @@
-# Calculator C++
+Calculator C
 
-Basic calculator developed in C++.
+Basic calculator developed in C.
 
-## Features
+Features
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Console interaction
+    Addition
+    Subtraction
+    Multiplication
+    Division
+    Power operation (^)
+    Console interaction
 
-## Technologies
+Technologies
 
-- C++
-- Standard Library
+    C
+    Standard Library (stdio.h, math.h)
 
-## Installation
+Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/KevinCarlotto/exo-calculator-c.git
+git clone https://github.com/KevinCarlotto/calculator-c.git
 ```
 
 Compile:
 
 ```bash
-g++ main.cpp -o calculator
+gcc src/calculator.c -o calculator -lm
 ```
 
 Run:
@@ -35,16 +36,17 @@ Run:
 ./calculator
 ```
 
-## Purpose
+Purpose
 
 Practice project focused on:
 
-- C++ fundamentals
-- Programming logic
-- Functions
-- Basic application structure
+    C fundamentals
+    Programming logic
+    Functions
+    Input validation
+    Basic error handling
 
-## Author
+Author
 
 Kevin Carlotto  
 Founder @ ExoTechHub
