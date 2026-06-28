@@ -1,43 +1,50 @@
-# Nombre del Proyecto
+# Calculator C++
 
-Calculadora basica en C++.
+Basic calculator developed in C++.
 
-## Tabla de Contenidos
+## Features
 
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Console interaction
 
-## Instalación
+## Technologies
 
-Instrucciones sobre cómo instalar y configurar el proyecto:
+- C++
+- Standard Library
 
-1. Clona este repositorio.
-2. Ejecuta el comando `npm install` para instalar las dependencias.
-3. Configura las variables de entorno en el archivo `.env`.
-4. Inicia la aplicación con el comando `npm start`.
+## Installation
 
-## Uso
+Clone the repository:
 
-Copiar codigo o clonar repositorio y probar las 
-funcionalidades de la calculadora basica
+```bash
+git clone https://github.com/KevinCarlotto/exo-calculator-c.git
+```
 
-## Contribucion 
+Compile:
 
-Utilizado con fines de estudios, se acepta contribuciones de la comunidad, 
-colaboradores pueden hacerlo. informando errores, 
-proponer mejoras y enviar solicitudes de extracción.
+```bash
+g++ main.cpp -o calculator
+```
 
-    - Fork este repositorio.
-    - Crea una nueva rama: git checkout -b nueva-funcionalidad.
-    - Haz tus cambios y realiza commits: git commit -m 'Añade nueva funcionalidad'.
-    - Sube tus cambios al repositorio remoto: git push origin nueva-funcionalidad.
-    - Envía una solicitud de extracción.
+Run:
 
-## Licencia 
+```bash
+./calculator
+```
 
-Este proyecto está licenciado bajo la Licencia MIT - 
-consulta el archivo LICENSE para más detalles.
+## Purpose
 
-© 2023 | KY C.O
+Practice project focused on:
+
+- C++ fundamentals
+- Programming logic
+- Functions
+- Basic application structure
+
+## Author
+
+Kevin Carlotto  
+Founder @ ExoTechHub
